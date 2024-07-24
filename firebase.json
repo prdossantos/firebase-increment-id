@@ -1,0 +1,33 @@
+{
+  "emulators": {
+    "functions": {
+      "port": 5001,
+      "host": "0.0.0.0"
+    },
+    "firestore": {
+      "port": 8080,
+      "host": "0.0.0.0"
+    },
+    "ui": {
+      "enabled": true,
+      "host": "0.0.0.0",
+      "port": 4000
+    }
+  },
+  "functions": {
+    "predeploy": [
+      "npm run build"
+    ],
+    "runtime": "nodejs20",
+    "source": ".",
+    "ignore": [
+      "node_modules/**"
+    ],
+    "environment": {
+      "FIREBASE_CONFIG": {
+        "projectId": "firebase-increment-id",
+        "databaseURL": "http://localhost:8080"
+      }
+    }
+  }
+}

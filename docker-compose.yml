@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  firebase:
+    build: .
+    ports:
+      - '4000:4000'
+      - '4400:4400'
+      - '5001:5001'
+      - '8080:8080'
+    volumes:
+      - .:/app
