@@ -9,7 +9,7 @@ Este projeto utiliza Firebase Functions e Firestore para criar um sistema de reg
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/firebase-increment-id.git
+   git clone https://github.com/prdossantos/firebase-increment-id.git
    cd firebase-increment-id
    ```
 
