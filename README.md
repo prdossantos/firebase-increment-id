@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2e21ebeb10524bb68db36c0f5e997036)](https://app.codacy.com/gh/prdossantos/firebase-increment-id/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/2e21ebeb10524bb68db36c0f5e997036)](https://app.codacy.com/gh/prdossantos/firebase-increment-id/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
 # Projeto Firebase Increment ID
 
